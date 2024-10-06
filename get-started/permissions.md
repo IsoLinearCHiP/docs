@@ -21,7 +21,7 @@ restrict = true  # can access only the tables listed below
 
 ## Ignore table
 
-If you need to ignore restricted access mode for some tables, you can use the `ignore_table` option, it receives a string list with the names of the tables to be _"ignored"_, by **default,** is an empty list `[]`.
+If you need to ignore restricted access mode for some tables, you can use the `ignore_table` option. It receives a string list with the names of the tables to be _ignored_. By **default** it is an empty list `[]`.
 
 ```toml
 [access]
