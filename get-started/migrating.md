@@ -108,7 +108,7 @@ As such, the `migrate` library has little to no checking around the format of mi
 
 ### Reversibility of Migrations
 
-Best practice for writing schema migration is that all migrations should be reversible. It should in theory be possible for run migrations down and back up through any and all versions with the state being fully cleaned and recreated by doing so.
+Best practice for writing schema migration is that all migrations should be reversible. It should in theory be possible to run migrations down and back up through any and all versions with the state being fully cleaned and recreated by doing so.
 
 By adhering to this recommended practice, development and deployment of new code is cleaner and easier (cleaning database state for a new feature should be as easy as migrating down to a prior version, and back up to the latest).
 
