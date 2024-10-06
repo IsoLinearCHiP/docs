@@ -2,7 +2,7 @@
 
 Simple caching system to cache the API return in the http **GET method**, ⚠ _by default the caching system is disabled_.
 
-We use key and value database embedded in _prestd_ ([BuntDB](https://github.com/tidwall/buntdb)).
+We use a key and value database embedded in _prestd_ ([BuntDB](https://github.com/tidwall/buntdb)).
 
 We have a timeout system (TTL) for the cached data, by default it is kept for `10 minutes` - with the possibility to change it in the settings.
 
