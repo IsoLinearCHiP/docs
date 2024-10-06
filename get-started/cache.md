@@ -15,11 +15,11 @@ For each URI (with its parameters) a _BuntDB_ database cache file is created.
 * **key:** URI with all string query parameters
 * **value:** json return (http body)
 
-#### Because BuntDB
+#### Why BuntDB?
 
-Is a low-level, in-memory, key/value store in pure Go. It persists to disk, is ACID compliant, and uses locking for multiple readers and a single writer. It supports custom indexes and geospatial data. It's ideal for projects that need a dependable database and favor speed over data size.
+Because it is a low-level, in-memory, key/value store in pure Go. It persists to disk, is ACID compliant, and uses locking for multiple readers and a single writer. It supports custom indexes and geospatial data. It's ideal for projects that need a dependable database and favor speed over data size.
 
-We didn't want to depend on an external database (and we can't create tables in the existing database), with this premise we decided to use an embedded database (write in Go language) and BuntDB proved to be the best option at the moment, [here you can see the discussion existing since **2017**](https://github.com/prest/prest/issues/112).
+We didn't want to depend on an external database (and we can't create tables in the existing database), with this premise we decided to use an embedded database (writen in Go language) and BuntDB proved to be the best option at the moment, [here you can see the discussion existing since **2017**](https://github.com/prest/prest/issues/112).
 
 ### Configuration for specific endpoint _("advanced")_
 
