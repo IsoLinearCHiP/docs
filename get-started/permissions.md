@@ -1,5 +1,5 @@
 ---
-description: How to manage tables read/writes
+description: How to manage tables read/write permissions
 ---
 
 # Permissions
