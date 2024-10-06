@@ -4,7 +4,7 @@ description: How to manage tables read/writes
 
 # Permissions
 
-This guide will allow you to understand how `pREST` to understand and manage your table's permission management and how you can tailor it to your needs by using the  `prest.toml` file.&#x20;
+This guide will allow you to understand how `pREST`'s access control works and how to manage your table's permissions and how you can tailor them to your needs by using the `prest.toml` file.
 
 ## Restrict mode
 
