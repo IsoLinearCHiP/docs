@@ -15,7 +15,7 @@ The `prest.toml` file allows you to configure each table's read/write/delete per
 restrict = true  # can access only the tables listed below
 ```
 
-`restrict = false`: (default) The pREST will serve in public mode. You can write/read/delete every data without configuring permissions.
+`restrict = false`: (default) pREST will serve in public mode. You can write/read/delete all data without configuring permissions.
 
 `restrict = true`: you need to configure the permissions of all tables.
 
