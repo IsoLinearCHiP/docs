@@ -2,7 +2,7 @@
 
 Migrations are the _**prestd**_'s way of propagating database changes (adding a field, deleting a model table, bulk data modification, etc.). They are designed to be mostly automatic, but you will need to know when to do migrations, when to run them, and the common problems you may run into.
 
-We use _SQL files_ for evolution and regration, so you can upgrade and downgrade.
+We use _SQL files_ for evolution and rollback, so you can upgrade and downgrade.
 
 `--url` and `--path` flags are optional if pREST configurations already set.
 
