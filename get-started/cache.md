@@ -23,7 +23,7 @@ We didn't want to depend on an external database (and we can't create tables in 
 
 ### Configuration for specific endpoint _("advanced")_
 
-Activating the caching system all endpoints in your api will have the caching system active, following the defined default configuration.
+When activating the caching system all endpoints in your api will have the caching system active using the defined default configuration.
 
 You can customize the configuration made for one (or more) specific endpoints, for example:
 
